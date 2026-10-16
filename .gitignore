@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Build outputs
+build/
+dist/
+installer_output/
+*.spec.bak
+
+# Backups & temp
+Backup/
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+# FFmpeg binaries — too large for GitHub, already bundled in installer
+assets/bin/*.exe
+assets/bin/*.dll
